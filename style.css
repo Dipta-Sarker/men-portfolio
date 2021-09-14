@@ -1,0 +1,121 @@
+html{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-size:5vw;
+    
+}
+h2{
+    font-size: 3vw;
+}
+h3{
+    font-size: 1rem;
+}
+.card{
+    font-size: 1vw;
+}
+p{
+    
+    color:dimgray;
+}
+section{
+    height:500px;
+}
+.top-banner{
+    background-image:url("images/top-banner.png");
+    background-repeat:no-repeat;
+    margin-bottom: 100px;
+}
+.name-highlight{
+    color:orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left:5%;
+    padding:2%;
+}
+.half-width img{
+    width: 100%;
+    border-radius:5px;
+}
+@media(max-width:460px){
+    .half-width{
+        width:100%;
+        margin-bottom:50px;
+    }
+}
+
+.link-button{
+    text-decoration:none;
+    background-image:linear-gradient(45deg,blue,cyan);
+    padding:10px 20px;
+    color:white;
+    border-radius:5px;
+
+}
+
+.middle-section{
+    background-image:url("images/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position:right;
+}
+
+
+.office-button{
+    background-image:linear-gradient(45deg,orange,salmon);
+    padding: 10px 20px;
+    text-decoration:none;
+    color:white;
+    border-radius:5px;
+}
+
+
+.our-services{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    
+    
+}
+.our-services h2{
+    text-align: center;
+}
+.full-dev{
+    width:40%;
+    height: 50%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+}
+.baby-dev{
+    width:40%;
+    height: 50%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+footer p{
+    font-size: 16px;
+    text-align: center;
+    color: lightseagreen;
+}
+
+
+
+
+
+
+
+    
+
+
+
+
